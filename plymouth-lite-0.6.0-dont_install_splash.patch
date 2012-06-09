@@ -1,0 +1,13 @@
+Index: plymouth-lite-0.6.0/Makefile
+===================================================================
+--- plymouth-lite-0.6.0.orig/Makefile
++++ plymouth-lite-0.6.0/Makefile
+@@ -9,6 +9,5 @@ install: ply-image
+ 	mkdir -p $(DESTDIR)/usr/bin	
+ 	mkdir -p $(DESTDIR)/usr/share/plymouth
+ 	cp ply-image $(DESTDIR)/usr/bin
+-	cp splash.png $(DESTDIR)/usr/share/plymouth/splash.png
+ 	
+-	
+\ No newline at end of file
++	

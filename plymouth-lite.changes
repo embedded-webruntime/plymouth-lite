@@ -1,0 +1,35 @@
+* Mon Feb 20 2012 Marko Saukko <marko.saukko@gmail.com> - 0.6.0
+- Change PkgConfigBR from libpng12 to libpng for newer mer core.
+  Adjusted plymouth-fix-cflags.patch for this.
+- Added plymouth-lite-0.6.0-png-set-gray.patch to fix removed
+  deprecated function call.
+
+* Wed Sep 21 2011 Marko Saukko <marko.saukko@cybercom.com> - 0.6.0
+- Added startup/shutdown service files for systemd so we get splash screens.
+
+* Wed May 12 2010 Anas Nashif <anas.nashif@intel.com> - 0.6.0
+- Apply change for bmc#1985 to spec
+
+* Tue May 11 2010 Anas Nashif <anas.nashif@intel.com> - 0.6.0
+- Require meego-desktop-backgrounds ((bmc #1985)
+
+* Sun Mar 14 2010 Anas Nashif <anas.nashif@intel.com> - 0.6.0
+- Do not hardcode flags in Makefile
+
+* Fri Feb 05 2010 Anas Nashif <anas.nashif@intel.com> - 0.6.0
+- Move backgrounds to moblin-generic-backgrounds
+
+* Thu Jan 07 2010 Vivian Zhang <vivian.zhang@intel.com> 0.6.0
+- Refresh the splash.png to clean libpng warning on startup, partially fixed MB #8946
+
+* Wed Jul 22 2009 - Arjan van de Ven <arjan@linux.intel.com> - 0.6.0
+- add shutdown images
+
+* Tue Jun 16 2009 - Li Peng <peng.li@intel.com> - 0.6.0
+- Add patch to resize the image for screen size
+
+* Mon Feb 23 2009 - Arjan van de Ven <arjan@linux.intel.com> - 0.6.0
+- disable the cursor
+
+* Sat Feb 21 2009 - Arjan van de Ven <arjan@linux.intel.com> - 0.6.0
+- Initial import of plymouth-lite, a stripped down version of plymouth

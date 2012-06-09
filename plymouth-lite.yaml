@@ -1,0 +1,26 @@
+Name: plymouth-lite
+Summary: Boot splash screen based on Fedora's Plymouth code
+Version: 0.6.0
+Release: 1
+Group: System/Base
+License: GPLv2
+URL: http://www.moblin.org
+Sources:
+    - "%{name}-0.6.0.tar.bz2"
+    - "%{name}-start.service"
+    - "%{name}-halt.service"
+    - "%{name}-reboot.service"
+    - "%{name}-poweroff.service"
+Patches:
+    - cursor.patch
+    - plymouth-resize.patch
+    - plymouth-fix-build.patch
+    - plymouth-lite-0.6.0-dont_install_splash.patch
+    - plymouth-fix-cflags.patch
+    - plymouth-lite-0.6.0-png-set-gray.patch
+Description: |
+    Boot splash screen based on Fedora's Plymouth code.
+Requires:
+    - meego-desktop-backgrounds
+PkgConfigBR:
+    - libpng
